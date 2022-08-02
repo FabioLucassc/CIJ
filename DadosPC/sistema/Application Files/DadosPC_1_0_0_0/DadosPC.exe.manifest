@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DadosPC.exe" version="1.0.0.0" publicKeyToken="b7ac70035845c1d7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DadosPC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DadosPC.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DadosPC.exe" size="200640">
+      <assemblyIdentity name="DadosPC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pJg2MoR0QMqGTg8XW70EGk7wDaqppL21duBjeo6xdCc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsEtMbSETineMVlPyWMqNypVNjHeCgoEyK+RZo43z0k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CkqWCC4ldn5GlwM2SbFsdqZS4SB1eizsq4CSrQ1xa2U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yEOGmqylE1wtRylphfNcccqK9EMSiNBNSBxORsyT7iY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DadosPC.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CIJUNSP\fcolaco" issuerKeyHash="f931ba62856001249724cc0f294e92d7dc64260f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pjm4ocPRGPA230mmYdpVEvltUzER8uoMcOGE4NesgvI=</DigestValue></Reference></SignedInfo><SignatureValue>NxH2dOlDtMUVb8TTvpn7d8KXpPJcRWAFONM1BsdtwcDTIN+1SFGuo15n93m54j6tl3ehG5sNimTnVGqjtnlntxlddXZS7/G7ike6plQLbJ6t4bffYXmexLh/1vZDT9Ai049f1uR0o9kZNxYq/qdCNhT51nTps/Q3ltTpvjm9n58=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pWMSed3LqgobuSStaD2a1Sz/SW93f4URu+bm/7//lE8ylqiy+ccFDP9v16/hLfVoDZzySt0VJdXJzW70/lM64rkcHyQSY/Wrajb4MR3dBBJyVmkMiRr0Qghr8+48YQt1a8R4gdFB1A2g8iot632W51m6Qyt4TP8+8x2dlWmghS0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f282acd7e084e1700ceaf21131536df91255da61a649df36f018d1c3a1b839a6" Description="" Url=""><as:assemblyIdentity name="DadosPC.exe" version="1.0.0.0" publicKeyToken="b7ac70035845c1d7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CIJUNSP\fcolaco</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Rl7YXFBuyyfU+7WK1pKf1zNL4s4bWva2Rx7tSVjPNgE=</DigestValue></Reference></SignedInfo><SignatureValue>dh+qg6cIKCwgDAyEWnT/uQNUnpz6Kc/vl88N7kxuoofG9EYDdX/VEsquvwLh1c434BeGxJpFa54XlU1xnDiHcS0CUnh7HidcBX9LHJHgpAV7bHgmhAa0FiDxFZND0tkKzICtgUPAkpvBzeYKFKg6B/fIFHGaupWEcjFWb9eTZZY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pWMSed3LqgobuSStaD2a1Sz/SW93f4URu+bm/7//lE8ylqiy+ccFDP9v16/hLfVoDZzySt0VJdXJzW70/lM64rkcHyQSY/Wrajb4MR3dBBJyVmkMiRr0Qghr8+48YQt1a8R4gdFB1A2g8iot632W51m6Qyt4TP8+8x2dlWmghS0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQJeD5Z7kxgYVFu8fp+zivWjANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AQwBJAEoAVQBOAFMAUABcAGYAYwBvAGwAYQBjAG8wHhcNMjIwODAxMjAyNzQwWhcNMjMwODAyMDIyNzQwWjApMScwJQYDVQQDHh4AQwBJAEoAVQBOAFMAUABcAGYAYwBvAGwAYQBjAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKVjEnndy6oKG7kkrWg9mtUs/0lvd3+FEbvm5v+//5RPMpaosvnHBQz/b9ev4S31aA2c8krdFSXVyc1u9P5TOuK5HB8kEmP1q2o2+DEd3QQSclZpDIka9EIIa/PuPGELdWvEeIHRQdQNoPIqLet9ludZukMreEz/PvMdnZVpoIUtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAWgnKDhn2gQ0qSF7aDaKUMFTCOFl6ne0eUArUA8PK4EORBoGPizy/BrlU1GMCr4O86mCkFOyrWf6+a5yBV1UGAkZAzAK7a8weGEvPeFIUs3VoL/EpQjfLXg8YRFiSw+PucEdmJuUcP1tcOxsmIVk77pR6PgVCBaS/uB6Giv2FuqI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
