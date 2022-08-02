@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DadosPC", "DadosPC\DadosPC.csproj", "{B0AA31E9-6C47-49A2-9A07-8C5BFB43566F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CIJUN - IP View", "DadosPC\sistema\CIJUN - IP View\CIJUN - IP View.vdproj", "{5543496C-3EBF-43F4-B49B-C08AF829AC20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{B0AA31E9-6C47-49A2-9A07-8C5BFB43566F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0AA31E9-6C47-49A2-9A07-8C5BFB43566F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0AA31E9-6C47-49A2-9A07-8C5BFB43566F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5543496C-3EBF-43F4-B49B-C08AF829AC20}.Debug|Any CPU.ActiveCfg = Debug
+		{5543496C-3EBF-43F4-B49B-C08AF829AC20}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
